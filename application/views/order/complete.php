@@ -35,7 +35,7 @@
 				<b>&not;</b> <small><?php echo $option->value_name; ?> (<?php echo $option->operation; ?> <?php echo $this->cart->format_number($option->price * $currency_currency); ?> <?php echo $currency_symbol; ?>)</small> 
 				<?php } ?>
 			
-			<? } ?>
+			<?php } ?>
 		  </td>
 		  <td style="text-align:right"><?php echo $this->cart->format_number($items['price'] * $currency_currency); ?> <?php echo $currency_symbol; ?></td>
 		  <td style="text-align:right"> <?php echo $this->cart->format_number($items['subtotal'] * $currency_currency); ?> <?php echo $currency_symbol; ?></td>
